@@ -1,0 +1,172 @@
+
+/* à¼„à¼„à¼„à¼„à¼„à¼„à¼„à¼„
+   /// Bonjour
+ à¼„à¼„à¼„à¼„à¼„à¼„à¼„à¼„à¼„*/
+
+/** RÃ©glage globale : fond d'Ã©cran, police d'Ã©criture */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Merienda';
+}
+
+/*@media (min-width: 1300px) {
+body, html {
+    overflow: hidden;
+}
+}*/
+
+input {
+    font-family: 'Merienda';
+    font-weight: bold;
+}
+/* pour le fond d'Ã©cran */
+.bg {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** les zones sur fond transparent */
+h1, #leftPanel, #rightPanel, #grid, #message {
+    background-color: rgba(255,255,255,0.6);
+}
+#embed {
+    height: 0px;
+    width: 0px;
+}
+
+/** les zones principales */
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size:50px;
+    padding: 10px;
+    padding-left: 30px;
+}
+#leftPanel,#rightPanel{
+    
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    
+    overflow: auto;
+
+}
+#leftPanel {
+    margin-left: 30px;
+    float: left;
+
+}
+#rightPanel {
+    float: right;
+    margin-right:30px;
+    text-align: center;
+}
+.middle {
+    float : left;
+    margin-left:140px;
+    margin-top: 25px;
+    width: 384px;
+    height: 384px;
+}
+#grid {
+    display : table;
+    margin : 0 auto;
+}
+#message {
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    padding: 5px;
+    height: 125px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 500px;
+}
+
+/** Les spÃ©ciaux **/
+/* sÃ©parateur verticale */
+hr {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    height: 0px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+} 
+/* format des titres dans rightPanel et leftPanel */
+.boxTitle {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+/* pour les tableaux : boutons des dims., les scores */
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/** dans leftPanel **/
+/* la gallery d'image */
+.mini_icon {
+    width:50px;
+    height:50px;
+}
+.liste_images {
+    margin-top: 5px;
+}
+/* la dimension */
+
+
+/** dans grid **/
+.row {
+    
+    border-spacing: 0px;
+    height:128px;
+    margin: auto;
+}
+
+.case { 
+    display: table-cell;
+    height:128px;
+   
+    background-size: 128px 128px;
+    background-repeat: no-repeat;
+}
+
+/** dans rightPanel **/
+/* le top */
+#topFive {
+    color:red;
+    font-weight: bold;
+}
+
+/* rÃ©glage audio */
+#boxAudio {
+    width:200px;
+}
+    /* pas de bord pointillÃ© autour des check box */
+input {
+    outline: 0;
+}
+    /* pas de bord pointillÃ© sur les curseurs */
+input[type=range]::-moz-focus-outer {
+    border: 0;
+}
+#checkBoxMusic, #checkBoxSound {
+    float:right;
+    margin-right:5px;
+}
+#boxAudio{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* à¼„à¼„à¼„à¼„à¼„à¼„à¼„à¼„
+   /// Au revoir
+ à¼„à¼„à¼„à¼„à¼„à¼„à¼„à¼„à¼„*/
